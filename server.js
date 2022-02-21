@@ -2,7 +2,7 @@ var express = require("express");  //lib-----Node Module
 var app = express();  // will create app object from express package
 
 var onAboutUs = function (req, res) {
-    res.send("Chief Mentor :Ravi Tambade");
+    res.send("Product And Services");
 };
 var onDefault = function (req, res) {
     res.send("<h1>Fabrikam Pvt. Ltd</h1>" +
